@@ -12,7 +12,7 @@
   text-align: center;
   
 }
-h1{
+#nombre{
   margin-top: 20px;
   font-size: 1.5rem;
 }
@@ -205,4 +205,84 @@ margin: 15px 15px;
 
 #quien{
   text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .parafos #parrafo {
+    font-size: 0.5rem; 
+    
+   
+    display: flex;
+  }
+  nav ul li a{
+    font-family: 'Bree Serif', serif;
+    color: white !important;
+    font-size: 16px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    text-shadow: 1px 2px 2px black, 0 0 25px black, 0 0 5px black, 0 0;
+    text-transform:uppercase !important;
+  }
+  .enlace{
+    position: absolute;
+    padding: 23px 40px;
+    margin: 0 5px;
+    color: white !important;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 1px 2px 2px black, 0 0 25px black, 0 0 5px black, 0 0;
+    font-size: 16px;
+  }
+  
+  
+#titulo{
+  background: black;
+  margin-left: 10%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+}
+#nombre{
+  margin-top: 20px;
+  font-size: .7rem;
+}
+.sub{
+  font-size: .6rem;
+}
+.info #txtinfo {
+ 
+  font-size: 0.5rem;
+}
+
+.info .bi{
+  width: 8;
+  height: 8;
+}
+#quien{
+  text-align: left;
+  font-size: 0.5rem;
+}
+
+#titulo1{
+  background: black;
+  margin-right: 10%;
+  padding: 10px 10px;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+}
+#titulo2{
+  background: black;
+  margin-left: 10%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+
+}
+
+
 }
